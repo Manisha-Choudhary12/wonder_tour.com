@@ -1,0 +1,777 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 1000px;
+    background-color: orange;
+    position: relative;
+}
+#name{
+    margin: -20px 0px;
+    background-color: orange;
+    width: 20%;
+    text-align: center;
+    height: 55px;
+    font-size: 35px;
+    text-transform: capitalize;
+    font-family: 'Ms Madi', cursive;
+    position: absolute;
+    padding: 10px;
+    line-height: 81px;
+}
+#name span{
+    color:white;
+}
+/* nav bar */
+.nav-bar{
+    background-color: black;
+    width: 77%;
+    height: 78px;
+    position: absolute;
+    margin: -20px 310px;
+    text-align: center;
+}
+ol li{
+    display: inline-block;
+    list-style: none;
+    font-family: sans-serif;
+    padding: 5px;
+    margin: 25px 40px;
+    text-transform: capitalize;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ol li:hover{
+    background-color:orange;
+    color: white;
+}
+ol li:active{
+    background-color: orange;
+}
+
+/* img-slider */
+.slider-frame{
+    height: 450px;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    margin: 58px 0px;
+    background-size: 100% 100%;
+}
+img{
+    height: 450px;
+    width: 100%;
+    background-size: 100% 100%;
+}
+#container{
+    position: absolute;
+    margin: 200px 350px;
+    font-family: sans-serif;
+    color: white;
+}
+#greeting{
+    margin: 20px 110px;
+    font-size: 35px;
+}
+#team{
+    margin: -12px 110px;
+    position: absolute;
+    width: 90%;
+}
+.form{
+    background-color:rgba(12, 12, 11, 0.6);
+    margin:40px 0px;
+    width: 110%;
+    height: 50px;
+}
+.form .form-info{
+    outline: none;
+    height: 20px;
+    margin: 10px 19px;
+}
+#btn{
+    background-color: orange;
+    border: none;
+    width: 10%;
+    height: 26px;
+    outline: none;
+    margin: 10px 15px;
+    font-size: 15px;
+}
+#btn:active{
+    background-color: rgba(255, 165, 0,0.6);
+}
+
+#main{
+    background-image:url(../wonder-tour/images/map.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+    margin: 520px 0px;
+    position: absolute;
+}
+.subset{
+    width: 100%;
+    height: 900px;
+    background-color:rgba(49, 49, 46, 0.6);
+    position: absolute;
+    margin: 0px 0px;
+}
+.line{
+    background-color: black;
+    border: black;
+    height: 3px;
+    width: 43%;
+    size: 10;
+    margin: 50px 0px;
+    position: absolute;
+}
+.line1{
+    background-color: black;
+    border: black;
+    height: 3px;
+    width: 42%;
+    size: 10;
+    position: absolute;
+    margin: 50px 782px;
+}
+#place{
+    color: yellow;
+    position: absolute;
+    margin: 37px 578px;
+    width: 40%;
+    font-family: sans-serif;
+}
+
+/* slide-frame */
+#slider-box {
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    margin: 140px 0px;
+    background-attachment: scroll;
+    overflow: hidden;
+}
+
+#slider {
+    position: absolute;
+    width: 212%;
+    height: 30px;
+    display: inline-flex;
+    transition: 0.7s;
+    margin: 0px 0px;
+}
+
+#img1 {
+    width: 33%;
+    margin: 0px 0px;
+}
+#dest1{
+    margin: 330px 200px;
+    font-size: 20px;
+    font-family: sans-serif;
+    position: absolute;
+    color: orange;
+}
+#img2 {
+    width: 33%;
+    margin: 0px  -15px;
+}
+#dest2{
+    margin: 330px 650px;
+    font-size: 20px;
+    font-family: sans-serif;
+    position: absolute;
+     color: orange;
+}
+#img3 {
+    margin: 0px -15px;
+    width: 33%;
+}
+#dest3{
+    margin: 330px 1100px;
+    font-size: 20px;
+    font-family: sans-serif;
+    position: absolute;
+     color: orange;
+}
+#img4 {
+    width: 33%;
+ }
+#dest4{
+    margin: 330px 1630px;
+    font-size: 20px;
+    font-family: sans-serif;
+    position: absolute;
+     color: orange;
+}
+#img5 {
+    width: 33%;
+    margin: 0px  -15px;
+}
+#dest5{
+    margin: 330px 2080px;
+    font-size: 20px;
+    font-family: sans-serif;
+    position: absolute;
+     color: orange;
+}
+#img6 {
+    width: 33%;
+     margin: 0px  -15px;
+}
+#dest6{
+    margin: 330px 2550px;
+    font-size: 20px;
+    font-family: sans-serif;
+    position: absolute;
+     color: orange;
+}
+#slider img {
+    width: 88%;
+    height: 300px;
+    background-size: 100% 100%;
+}
+#slider img:hover {
+    width: 90%;
+    height: 308px;
+    background-size: 100% 100%;
+}
+#indicators{
+    position: absolute;
+    margin: 405px 580px;
+    transform: translateX(115%);
+    width: 5%;
+}
+#indicators span{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgba(218, 53, 53, 0.5);
+    cursor: pointer;
+}
+.active{
+    background-color: gray!important;
+}
+
+/* Deals */
+.line3{
+    background-color: black;
+    border: black;
+    height: 3px;
+    width: 49%;
+    size: 10;
+    margin: 550px 0px;
+    position: absolute;
+}
+.line4{
+    background-color: black;
+    border: black;
+    height: 3px;
+    width: 46%;
+    size: 10;
+    position: absolute;
+    margin: 550px 723px;
+}
+#deal{
+    color: yellow;
+    position: absolute;
+    margin: 536px 657px;
+    font-family: sans-serif;
+}
+.winter{
+    text-transform: capitalize;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-image: url(../wonder-tour/images/mt.-cook-cover.webp);
+    background-size: 100% 100%;
+    width: 32%;
+    height: 250px;
+    margin: 590px 0px;    
+    float: left;
+    font-family: sans-serif;
+    color: black;
+  }
+  .member{
+      text-transform: capitalize;
+      position: absolute;
+      background-image: url(../wonder-tour/images/victoria_fall\ Africa.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 32%;
+    height: 250px;
+    margin: 590px 468px;  
+    font-family: sans-serif;  
+    color: black;
+}
+.member h2{
+    margin: 250px -10px;
+    width: 80%;
+}
+.hours{
+    text-transform: capitalize;
+    position: absolute;
+    background-image: url(../wonder-tour/images/france.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 30%;
+    height: 250px;
+    margin: 590px 942px;  
+    font-family: sans-serif;  
+    color: black;
+    font-size: 15px;  
+}
+.content1{
+    width: 80%;
+    margin: 250px 0px;
+    padding: 8px;
+}
+.winter .content1 span{
+    color:orange;
+    font-size: 24px;
+}
+.winter button{
+    background-color: orange;
+    font-size: 20px;
+    position: absolute;
+    margin: -318px 367px;
+    border: none;
+    color: white;
+    text-transform: capitalize;
+    width: 15%;
+}
+.winter button:active{
+    background-color: rgba(255, 165, 0,.6);
+}
+.content2{
+    width: 20%;
+    margin: 50px 50px;
+    padding: 8px;
+}
+.member .content2 span{
+    color: orange;
+    font-size: 24px;
+}
+.member  button{
+    background-color: orange;
+    font-size: 20px;
+    position: absolute;
+    margin: -318px 367px;
+    border: none;
+    color: white;
+    text-transform: capitalize;
+    width: 15%;
+}
+.member button:active{
+    background-color: rgba(255, 165, 0,.6);
+}
+.content3{
+    width: 80%;
+    margin: 250px 0px;
+    padding: 8px;
+}
+.content3 span{
+    color: orange;
+}
+.hours button{
+    background-color: orange;
+    font-size: 20px;
+    position: absolute;
+    margin: -318px 343px;
+    border: none;
+    color: white;
+    text-transform: capitalize;
+    width: 15%;
+}
+.hours button:active{
+    background-color: rgba(255, 165, 0,.6);
+}
+
+/* hot tours */
+#tours{
+    color: red;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    margin: 1450px 649px;
+    width: 40%;
+    position: absolute;
+}
+#benidrom{
+    height: 450px;
+    width: 33%;
+    position: absolute;
+    margin: 1505px 250px;
+    box-shadow: 0px 10px 20px -5px rgb(0, 0, 0,.6);
+    background-size: 100% 100%;
+}
+#tour1{
+    position: absolute;
+    float: right;
+    border: 3px solid rgba(128, 128, 128, 0.116);
+    box-shadow: 0px 10px 20px -5px rgb(0, 0, 0,.6);
+    font-family: sans-serif;
+    margin: 1505px 696px;
+    width: 35%;
+    height: 445px; 
+}
+h3{
+    position: absolute;
+    margin: 40px 112px;
+}
+#p7{
+    line-height: 25px;
+    margin: 85px 114px;
+}
+#tour1_info{
+    width: 38%;
+    height: 60px;
+    font-size: 15px;
+    background-color:  white;
+    text-transform: capitalize;
+    border: none;
+    position:absolute;
+    margin: 85px -220px;
+}
+#tour1_info:active{
+    background-color: rgba(255, 165, 0,.6);
+}
+#img-africa{
+    height: 450px;
+    width: 33%;
+    position: absolute;
+    margin: 1995px 250px;
+    background-size: 100% 100%;
+    box-shadow: 0px 10px 20px -5px rgb(0, 0, 0,.6);
+} 
+#tour2{
+    position: absolute;
+    float: right;
+    border: 3px solid rgba(128, 128, 128, 0.116);
+    box-shadow: 0px 10px 20px -5px rgb(0, 0, 0,.6);
+    font-family: sans-serif;
+    margin: 1995px 696px;
+    width: 35%;
+    height: 445px; 
+}
+#mauritius{
+    position: absolute;
+    margin: 40px 114px;
+    text-transform: capitalize;
+}
+#p8{
+    line-height: 25px;
+    margin: 85px 114px;
+} 
+#tour2_info{
+    width: 38%;
+    height: 60px;
+    font-size: 15px;
+    background-color: white;
+    text-transform: capitalize;
+    border: none;
+    position:absolute;
+    margin: 85px -162px;
+}
+#tour2_info:active{
+    background-color: aqua;
+}
+
+/* client experience */
+.review{
+    background-color: wheat;
+    position: absolute;
+    margin: 2480px 0px;
+    font-family: sans-serif;
+    width: 100%;
+    height: 550px;
+}
+#client{
+    position: absolute;
+    margin: 20px 600px;
+    width: 20%;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+#client span{
+    color: orange;
+}
+.review1{
+    background-color: orange;
+    box-shadow: 0px 10px 20px -5px rgb(0, 0, 0,);
+    position: absolute;
+    width: 45%;
+    height: 190px;
+    margin: 80px 50px;
+    text-align: center;
+}
+.review1 p{
+    padding: 5px;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 20px;
+    margin: 10px 50px;
+}
+.review1 span{
+    color: gray;
+}
+.review2{
+    background-color: orange;
+    box-shadow: 0px 10px 20px -5px rgb(0, 0, 0,);
+    position: absolute;
+    width: 45%;
+    height: 190px;
+    margin: 80px 708px;
+    text-align: center;
+}
+.review2 p{
+    padding: 5px;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 20px;
+    margin: 10px 50px;
+}
+.review2 span{
+    color: gray;
+}
+.review3{
+    background-color: orange;
+    box-shadow: 0px 10px 20px -5px rgb(0, 0, 0,);
+    position: absolute;
+    width: 45%;
+    height: 190px;
+    margin: 320px 50px;
+    text-align: center;
+}
+.review3 p{
+    padding: 5px;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 20px;
+    margin: 10px 50px;
+}
+.review3 span{
+    color: gray;
+}
+.review4{
+    background-color: orange;
+    box-shadow: 0px 10px 20px -5px rgb(0, 0, 0,);
+    position: absolute;
+    width: 45%;
+    height: 190px;
+    margin: 320px 708px;
+    text-align: center;
+}
+.review4 p{
+    padding: 5px;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 20px;
+    margin: 10px 50px;
+}
+.review4 span{
+    color: gray;
+}
+
+
+/* footer section */
+#footer{
+    background-color: darkblue;
+    position: absolute;
+    width: 100%;
+    margin: 3050px 0px;
+    height: 400px;
+}
+#num{
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    margin: 60px 200px;
+}
+#phone{
+    color: aqua;
+    position: absolute;
+    margin: -30px 200px;
+    font-size: 17px;
+}
+#num1{
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    position: absolute;
+    margin: -30px 240px;
+}
+#phone1{
+    color: aqua;
+    position: absolute;
+    margin: -30px 420px;
+    font-size: 17px;
+}
+#num2{
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    position: absolute;
+    margin: -30px 460px;
+}
+#email{
+    color: aqua;
+    position: absolute;
+    margin: -30px 650px;
+}
+#org{
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    position: absolute;
+    margin: -30px 700px;
+}
+#location{
+    color: aqua;
+    position: absolute;
+    margin: -30px 910px;
+}
+#address{
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    position: absolute;
+    margin: -30px 950px;
+    width: 14%;
+    line-height: 25px;
+}
+#news{
+    color: white;
+    font-size: 17px;
+    font-family: sans-serif;
+    position: absolute;
+    text-transform: uppercase;
+    margin: 55px 200px;
+}
+#places{
+    font-size: 16px;
+    font-family: sans-serif;
+    position: absolute;
+    text-transform: capitalize;
+    width: 20%;
+    line-height: 25px;
+    margin: 85px 200px;
+}
+#a1{
+    color: white;
+    text-decoration: none;
+}
+#link{
+    color: white;
+    font-size: 17px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    margin: 55px 700px;
+    width: 30%;
+    position: absolute;
+}
+#list{
+    position: absolute;
+    margin: 65px 578px;
+    height: 50px;
+    width: 30%;
+    text-align: center;
+}
+#list li{
+    display: inline-block;
+    list-style-type: circle;
+    font-family: sans-serif;
+    padding: 5px;
+    margin: 15px 10px;
+    font-size: 16px;
+}
+.a2{
+    color: white;
+}
+#touch{
+    height: 60px;
+    width: 13%;
+    background-color: rgb(18, 240, 240);
+    position: absolute;
+    border: none;
+    margin: 145px 699px;
+}
+#a3{
+    font-size: 16px;
+    color: white;
+}
+#footer1{
+    background-color: rgb(12, 12, 95);
+    font-size: 16px;
+     position: absolute;
+     margin: 256px 0px;
+     height: 100px;
+     width: 100%;
+}
+#rights{
+    margin: 60px 195px;
+    text-transform: capitalize;
+    color: gray;
+    width: 20%;
+    position: absolute;
+}
+#facebook{
+    margin: 60px 692px;
+    position: absolute;
+    color: gray;
+}
+#facebook:active{
+    color: aqua;
+}
+#facebook:hover{
+    color: aqua;
+    font-size: 18px;
+}
+#twitter{
+    margin: 60px 725px;
+    position: absolute;
+    color: gray;
+}
+#twitter:active{
+    color: aqua;
+}
+#twitter:hover{
+    color: aqua;
+    font-size: 18px;
+}
+#google{
+    margin: 60px 760px;
+    position: absolute;
+    color: gray;
+}
+#google:active{
+    color: aqua;
+}
+#google:hover{
+    color: aqua;
+    font-size: 18px;
+}
+#instagram{
+    margin: 60px 799px;
+    position: absolute;
+    color: gray;
+}
+#instagram:hover{
+    color: aqua;
+    font-size: 18px;
+}
+#instagram:active{
+    color: aqua;
+}
+#policy{
+    color: gray;
+    position: absolute;
+    float: right;
+    margin: 60px 1020px;
+    font-size: 16px;
+    text-transform: capitalize;
+    width: 20%;
+}

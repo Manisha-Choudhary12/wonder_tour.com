@@ -1,0 +1,419 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 1000px;
+    background-color: orange;
+    position: relative;
+}
+#name{
+    margin: -20px 0px;
+    background-color: orange;
+    width: 20%;
+    text-align: center;
+    height: 55px;
+    font-size: 35px;
+    text-transform: capitalize;
+    font-family: 'Ms Madi', cursive;
+    position: absolute;
+    padding: 10px;
+    line-height: 81px;
+}
+#name span{
+    color:white;
+}
+/* nav bar */
+.nav-bar{
+    background-color: black;
+    width: 76%;
+    height: 78px;
+    position: absolute;
+    margin: -20px 323px;
+    text-align: center;
+}
+ol li{
+    display: inline-block;
+    list-style: none;
+    font-family: sans-serif;
+    padding: 5px;
+    margin: 25px 40px;
+    text-transform: capitalize;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ol li:hover{
+    background-color:orange;
+    color: white;
+}
+ol li:active{
+    background-color: orange;
+}
+.services{
+    margin: 90px 590px;
+    position: absolute;
+    font-size: 26px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+#match{
+position: absolute;
+float: left;
+box-shadow: 0px 10px 20px -5px rgb(0,0,0);
+font-family: sans-serif;
+margin: 140px 180px;
+width: 32%;
+height: 250px;
+}
+#personal{
+    text-transform: capitalize;
+    line-height: 28px;
+    font-size: 18px;
+    margin:40px 120px;
+    position: absolute;
+}
+#p1{
+    /* color: white; */
+    line-height: 25px;
+    margin: 110px 114px;
+}
+#tour{
+    position: absolute;
+    float: right;
+    box-shadow: 0px 10px 20px -5px rgb(0,0,0);
+    font-family: sans-serif;
+    margin: 140px 710px;
+    width: 32%;
+    height: 250px;
+    }
+    #wide{
+        text-transform: capitalize;
+        font-size: 18px;
+        line-height: 28px;
+        margin:40px 105px;
+        position: absolute;
+    }
+    #p2{
+        /* color: white; */
+        line-height: 25px;
+        margin: 110px 105px;
+    }
+    #quality{
+        position: absolute;
+        float: left;
+        box-shadow: 0px 10px 20px -5px rgb(0,0,0);
+        font-family: sans-serif;
+        margin: 460px 180px;
+        width: 32%;
+        height: 250px;
+        }
+        #high{
+            text-transform: capitalize;
+            font-size: 18px;
+            line-height: 28px;
+            margin:40px 105px;
+            position: absolute;
+        }
+        #p3{
+            /* color: white; */
+            line-height: 25px;
+            margin: 110px 105px;
+        }
+        #hours{
+            position: absolute;
+            float: right;
+            box-shadow: 0px 10px 20px -5px rgb(0,0,0);
+            font-family: sans-serif;
+            margin: 460px 710px;
+            width: 32%;
+            height: 250px;
+            }
+            #support{
+                text-transform: capitalize;
+                font-size: 18px;
+                line-height: 28px;
+                margin:40px 114px;
+                position: absolute;
+            }
+            #p4{
+                /* color: white; */
+                line-height: 25px;
+                margin: 85px 114px;
+            }
+            #check{
+                color: aqua;
+                position: absolute;
+                margin: 45px 60px;
+                font-size: 30px;
+            }
+            #certificate{
+                color: aqua;
+                position: absolute;
+                margin: 48px 60px;
+                font-size: 30px;
+            }
+            #star{
+                color: aqua;
+                position: absolute;
+                margin: 48px 57px;
+                font-size: 30px;
+            }
+            #clock{
+                color: aqua;
+                position: absolute;
+                margin: 42px 57px;
+                font-size: 30px;
+            }
+            #hand{
+                position: absolute;
+                float: left;
+                box-shadow: 0px 10px 20px -5px rgb(0,0,0);
+                font-family: sans-serif;
+                margin: 775px 180px;
+                width: 32%;
+                height: 250px;
+            }
+            #hotel{
+                text-transform: capitalize;
+                font-size: 18px;
+                line-height: 28px;
+                margin:40px 114px;
+                position: absolute;
+            }
+            #p5{
+                /* color: white; */
+                line-height: 25px;
+                margin: 85px 114px;
+            }
+            #fire{
+                color: aqua;
+                position: absolute;
+                margin: 42px 57px;
+                font-size: 30px;
+            }
+            #best{
+                position: absolute;
+                float: right;
+                box-shadow: 0px 10px 20px -5px rgb(0,0,0);
+                font-family: sans-serif;
+                margin: 775px 710px;
+                width: 32%;
+                height: 250px;
+            }
+            #price{
+                text-transform: capitalize;
+                font-size: 18px;
+                line-height: 28px;
+                margin:40px 114px;
+                position: absolute;
+            }
+            #p6{
+                /* color: white; */
+                line-height: 25px;
+                margin: 85px 114px;
+            }
+            #wallet{
+                color: aqua;
+                position: absolute;
+                margin: 42px 57px;
+                font-size: 30px;
+            }
+            /* footer section */
+#footer{
+    background-color: darkblue;
+    position: absolute;
+    width: 100%;
+    margin: 1080px 0px;
+    height: 400px;
+}
+#num{
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    margin: 60px 200px;
+}
+#phone{
+    color: aqua;
+    position: absolute;
+    margin: -30px 200px;
+    font-size: 17px;
+}
+#num1{
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    position: absolute;
+    margin: -30px 240px;
+}
+#phone1{
+    color: aqua;
+    position: absolute;
+    margin: -30px 420px;
+    font-size: 17px;
+}
+#num2{
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    position: absolute;
+    margin: -30px 460px;
+}
+#email{
+    color: aqua;
+    position: absolute;
+    margin: -30px 650px;
+}
+#org{
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    position: absolute;
+    margin: -30px 700px;
+}
+#location{
+    color: aqua;
+    position: absolute;
+    margin: -30px 910px;
+}
+#address{
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    position: absolute;
+    margin: -30px 950px;
+    width: 14%;
+    line-height: 25px;
+}
+#news{
+    color: white;
+    font-size: 17px;
+    font-family: sans-serif;
+    position: absolute;
+    text-transform: uppercase;
+    margin: 55px 200px;
+}
+#places{
+    font-size: 16px;
+    font-family: sans-serif;
+    position: absolute;
+    text-transform: capitalize;
+    width: 20%;
+    line-height: 25px;
+    margin: 85px 200px;
+}
+#a1{
+    color: white;
+    text-decoration: none;
+}
+#link{
+    color: white;
+    font-size: 17px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    margin: 55px 700px;
+    width: 30%;
+    position: absolute;
+}
+#list{
+    position: absolute;
+    margin: 65px 598px;
+    height: 50px;
+    width: 30%;
+    text-align: center;
+}
+#list li{
+    display: inline-block;
+    list-style-type: circle;
+    font-family: sans-serif;
+    padding: 5px;
+    margin: 15px 10px;
+    font-size: 16px;
+}
+.a2{
+    color: white;
+}
+#touch{
+    height: 60px;
+    width: 13%;
+    background-color: rgb(18, 240, 240);
+    position: absolute;
+    border: none;
+    margin: 145px 699px;
+}
+#a3{
+    font-size: 16px;
+    color: white;
+}
+#footer1{
+    background-color: rgb(12, 12, 95);
+    font-size: 16px;
+     position: absolute;
+     margin: 256px 0px;
+     height: 100px;
+     width: 100%;
+}
+#rights{
+    margin: 60px 195px;
+    text-transform: capitalize;
+    color: gray;
+    width: 20%;
+    position: absolute;
+}
+#facebook{
+    margin: 60px 692px;
+    position: absolute;
+    color: gray;
+}
+#facebook:active{
+    color: aqua;
+}
+#facebook:hover{
+    color: aqua;
+    font-size: 18px;
+}
+#twitter{
+    margin: 60px 725px;
+    position: absolute;
+    color: gray;
+}
+#twitter:active{
+    color: aqua;
+}
+#twitter:hover{
+    color: aqua;
+    font-size: 18px;
+}
+#google{
+    margin: 60px 760px;
+    position: absolute;
+    color: gray;
+}
+#google:active{
+    color: aqua;
+}
+#google:hover{
+    color: aqua;
+    font-size: 18px;
+}
+#instagram{
+    margin: 60px 799px;
+    position: absolute;
+    color: gray;
+}
+#instagram:hover{
+    color: aqua;
+    font-size: 18px;
+}
+#instagram:active{
+    color: aqua;
+}
+#policy{
+    color: gray;
+    position: absolute;
+    float: right;
+    margin: 60px 1020px;
+    font-size: 16px;
+    text-transform: capitalize;
+    width: 20%;
+}

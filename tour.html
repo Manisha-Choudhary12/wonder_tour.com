@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../wonder-tour/packages.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body>
+    <h3 id="name">wonder <span> tour</span></h3>
+    <!-- navigation bar -->
+    <div class="nav-bar">
+        <ol>
+            <li><a href="../wonder-tour/index.html">home</a> </li>
+            <li><a href="../wonder-tour/tour.html">tours</a></li>
+            <li><a href="../wonder-tour/about.html">about us</a></li>
+            <li><a href="../wonder-tour/service.html">services</a></li>
+            <li><a href="../wonder-tour/contactus.html">contact us</a></li>
+        </ol>
+    </div>
+    <h2 id="tours">holiday packages</h2>
+    <img src="../wonder-tour/images/Solo Adventure Travel Argentina Patagonia.jpg" alt="" id="patagonia">
+    <div id="tour1">
+        <h3>Patagonia, Argentina</h3>
+        <p id="p7"> Patagonia is famous for adventure and sports activities, active and outdoor, walking tours,
+            wildlife, landscapes & nature, national parks, nature and bush walks, rainforest and jungle visits, local
+            boat rides <button id="tour1_info">buy this tour</button></p>
+    </div>
+    <img src="../wonder-tour/images/paris cruise.jpg" alt="" id="img-france">
+    <div id="tour2">
+        <h3 id="france">Paris Cruise, France</h3>
+        <p id="p8">Paris Cruise + Illuminations Tour is famous for art and architecture, city sightseeing, cultural,
+            religious & historic sites, local culture, river cruise.<button id="tour2_info">buy this tour
+            </button></p>
+    </div>
+    <img src="../wonder-tour/images/rome.jpg" alt="" id="Itlay">
+    <div id="tour3">
+        <h3>Rome City Break, Itlay</h3>
+        <p id="content1"> Villa Borghese Gardens, Aventine Hill, Underground Sites, Ancient Rome and Other Tours.
+            Exploring the center of Rome and walking among its iconic monuments and stunning remains will take you in
+            time. <button id="tour3_info">buy this tour</button></p>
+    </div>
+    <img src="../wonder-tour/images/297718.jpg" alt="" id="benidrom">
+    <div id="tour4">
+        <h3>Benidrom,Spain</h3>
+        <p id="content2">Benidrom is a buzzing resort with a big reputation for beach holidays. Situated in sunny Costa
+            Blanca, the town is one of the original Spanish beach resorts... <button id="tour4_info">buy this
+                tour</button></p>
+    </div>
+    <img src="../wonder-tour/images/iStock-1192448083.webp" alt="" id="img-africa">
+    <div id="tour5">
+        <h3 id="mauritius">Mauritius island,africa</h3>
+        <p id="content3">The beautiful and inviting island nation of Mauritius is an ideal 'flop and drop' at the conclusion
+            of your safari. Indulge in the delightful scents of the fragrant... <button id="tour5_info">buy this tour
+            </button></p>
+    </div>
+    <h2 id="tour">destination</h2>
+    <div id="slider-box">
+        <div id="slider">
+            <div id="img1"> <img src="../wonder-tour/images/Italy.jpg" alt=""> </div>
+            <span id="dest1">Itlay</span>
+            <div id="img2"> <img src="../wonder-tour/images/Egypt.jpg" alt=""> </div>
+            <span id="dest2">Egypt</span>
+            <div id="img3"> <img src="../wonder-tour/images/Dubai.jpg" alt=""> </div>
+            <span id="dest3">Dubai</span>
+            <div id="img4"> <img src="../wonder-tour/images/spain.jpg" alt=""> </div>
+            <span id="dest4">Spain</span>
+            <div id="img5"> <img src="../wonder-tour/images/victoria_fall Africa.jpg" alt=""></div>
+            <span id="dest5">Africa</span>
+            <div id="img6"><img src="../wonder-tour/images/france.jpg" alt=""></div>
+            <span id="dest6">France</span>
+        </div>
+    </div>
+    <div id="indicators">
+        <span id="btn1" class="active"></span>
+        <span id="btn2"></span>
+        <span id="btn3"></span>
+    </div>
+    <script>
+        var slide = document.getElementById("slider")
+        var btn1 = document.getElementById("btn1")
+        var btn2 = document.getElementById("btn2")
+        var btn3 = document.getElementById("btn3")
+        btn1.onclick = function () {
+            slide.style.transform = "translateX(0px)";
+            btn1.classList.add("active")
+            btn2.classList.remove("active")
+            btn3.classList.remove("active")
+        }
+        btn2.onclick = function () {
+            slide.style.transform = "translateX(-34%)";
+            btn2.classList.add("active")
+            btn1.classList.remove("active")
+            btn3.classList.remove("active")
+        }
+        btn3.onclick = function () {
+            slide.style.transform = "translateX(-50%)";
+            btn3.classList.add("active")
+            btn1.classList.remove("active")
+            btn2.classList.remove("active")
+        }
+    </script>
+    </div>
+    
+    <!-- footer section -->
+<div id="footer">
+    <h4 id="num">contact us</h4>
+    <i class="fa fa-phone" id="phone"></i>
+    <p id="num1">+1323-913-438</p>
+    <i class="fa fa-phone" id="phone1"></i>
+    <p id="num2">+1332-931-438</p>
+    <i class="fa fa-envelope" id="email"></i>
+    <p id="org">wonder123@gmail.com</p>
+    <i class="fa fa-location-arrow" id="location"></i>
+    <p id="address">Sant Nagar Burari, Delhi 110084</p>
+    <h4 id="news">popular news</h4>
+    <p id="places"><a href="../wonder-tour/tour.html" id="a1"> your personal guide to 5 best places to visit on
+            earth</a></p>
+    <h4 id="link">quick links</h4>
+    <ul id="list">
+        <li ><a href="../wonder-tour/about.html" class="a2">About us</a></li>
+        <li ><a href="../wonder-tour/tour.html" class="a2">Our Tours</a></li>
+        <li ><a href="../wonder-tour/contactus.html" class="a2">ContactUs</a></li>
+    </ul>
+    <button id="touch"><a href="../wonder-tour/tour.html" id="a3">Get in touch</a></button>
+    <div id="footer1">
+         <p id="rights">all rights reserved.</p>
+        <a href="https://www.facebook.com"> <i class="fab fa-facebook-f" id="facebook"></i> </a>
+        <a href="https://www.twitter.com"> <i class="fab fa-twitter" id="twitter"></i></a>
+        <a href="https://www.google.com"> <i class="fab fa-google" id="google"></i></a>
+        <a href="https://www.instagram.com"> <i class="fab fa-instagram" id="instagram"></i></a>
+         <div id="policy">privacy policy</div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,575 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 1000px;
+    background-color: orange;
+    position: relative;
+}
+#name{
+    margin: -20px 0px;
+    background-color: orange;
+    width: 23%;
+    text-align: center;
+    height: 55px;
+    font-size: 35px;
+    text-transform: capitalize;
+    font-family: 'Ms Madi', cursive;
+    position: absolute;
+    padding: 10px;
+    line-height: 81px;
+}
+#name span{
+    color:white;
+}
+
+/* nav bar */
+.nav-bar{
+    background-color: black;
+    width: 76%;
+    height: 78px;
+    position: absolute;
+    margin: -20px 323px;
+    text-align: center;
+}
+ol li{
+    display: inline-block;
+    list-style: none;
+    font-family: sans-serif;
+    padding: 5px;
+    margin: 25px 40px;
+    text-transform: capitalize;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ol li:hover{
+    background-color:orange;
+    color: white;
+}
+ol li:active{
+    background-color: orange;
+}
+#tours{
+    color: red;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    margin: 80px 589px;
+    width: 40%;
+    position: absolute;
+}
+#patagonia{
+    height: 330px;
+    width: 35%;
+    position: absolute;
+    margin: 175px 5px;
+    box-shadow: 0px 10px 20px -5px rgb(0, 0, 0,.6);
+    background-size: 100% 100%;
+    border: 4px solid white;
+}
+#tour1{
+    position: absolute;
+    float: right;
+    font-family: sans-serif;
+    margin: 175px 5px;
+    width: 35%;
+    height: 390px; 
+}
+#tour1 h3{
+    position: absolute;
+    margin: 40px 22px;
+}
+#p7{
+    line-height: 25px;
+    margin: 85px 12px;
+    width: 80%;
+}
+#tour1_info{
+    width: 38%;
+    height: 60px;
+    font-size: 15px;
+    background-color:  white;
+    text-transform: capitalize;
+    border: none;
+    position:absolute;
+    margin: 88px 205px;
+}
+#tour1_info:active{
+    background-color: rgba(255, 165, 0,.6);
+}
+#img-france{
+    height: 400px;
+    width:38%;
+    position: absolute;
+    margin: 140px 414px;
+    background-size: 100% 100%;
+    box-shadow: 0px 10px 20px -5px rgb(0, 0, 0,.6);
+    border: 4px solid orange;
+} 
+#tour2{
+    position: absolute;
+    float: right;
+    font-family: sans-serif;
+    margin: 140px 414px;
+    width: 38%;
+    height: 400px; 
+}
+#france{
+    position: absolute;
+    margin: 40px 20px;
+    text-transform: capitalize;
+}
+#p8{
+    line-height: 25px;
+    margin: 85px 12px;
+} 
+#tour2_info{
+    width: 38%;
+    height: 60px;
+    font-size: 15px;
+    background-color: white;
+    text-transform: capitalize;
+    border: none;
+    position:absolute;
+    margin: 208px 262px;
+}
+#tour2_info:active{
+    background-color: orange;
+}
+#Itlay{
+    height: 330px;
+    width: 30%;
+    position: absolute;
+    margin: 175px 935px;
+    box-shadow: 0px 10px 20px -5px rgb(0, 0, 0,.6);
+    background-size: 100% 100%;
+    border: 4px solid white;
+    border-left: none;
+}
+#tour3{
+    position: absolute;
+    float: right;
+    font-family: sans-serif;
+    margin: 175px 935px;
+    width: 30%;
+    height: 330px; 
+}
+#tour3 h3{
+    position: absolute;
+    margin: 40px 20px;
+}
+#content1{
+    line-height: 25px;
+    margin: 85px 12px;
+}
+#tour3_info{
+    width: 38%;
+    height: 60px;
+    font-size: 15px;
+    background-color:  white;
+    text-transform: capitalize;
+    border: none;
+    position:absolute;
+    margin: 88px 204px;
+}
+#tour3_info:active{
+    background-color: rgba(255, 165, 0,.6);
+}
+#benidrom{
+    height: 415px;
+    width: 33%;
+    position: absolute;
+    margin: 602px 205px;
+    box-shadow: 0px 10px 20px -5px rgb(0, 0, 0,.6);
+    background-size: 100% 100%;
+}
+#tour4{
+    position: absolute;
+    float: right;
+    border: 3px solid rgba(128, 128, 128, 0.116);
+    box-shadow: 0px 10px 20px -5px rgb(0, 0, 0,.6);
+    font-family: sans-serif;
+    margin: 595px 649px;
+    width: 33%;
+    height: 420px; 
+}
+#tour4 h3{
+    position: absolute;
+    margin: 40px 115px;
+}
+#content2{
+    /* color: white; */
+    line-height: 25px;
+    margin: 85px 114px;
+}
+#tour4_info{
+    width: 38%;
+    height: 60px;
+    font-size: 15px;
+    background-color:  white;
+    text-transform: capitalize;
+    border: none;
+    position:absolute;
+    margin: 85px -50px;
+}
+#tour4_info:active{
+    background-color: rgba(255, 165, 0,.6);
+}
+#img-africa{
+    height: 450px;
+    width: 33%;
+    position: absolute;
+    margin: 1060px 205px;
+    background-size: 100% 100%;
+    box-shadow: 0px 10px 20px -5px rgb(0, 0, 0,.6);
+} 
+#tour5{
+    position: absolute;
+    float: right;
+    border: 3px solid rgba(128, 128, 128, 0.116);
+    box-shadow: 0px 10px 20px -5px rgb(0, 0, 0,.6);
+    font-family: sans-serif;
+    margin: 1060px 649px;
+    width: 33%;
+    height: 445px; 
+}
+#mauritius{
+    position: absolute;
+    margin: 40px 114px;
+    text-transform: capitalize;
+}
+#content3{
+    /* color: white; */
+    line-height: 25px;
+    margin: 85px 114px;
+} 
+#tour5_info{
+    width: 38%;
+    height: 60px;
+    font-size: 15px;
+    background-color: white;
+    text-transform: capitalize;
+    border: none;
+    position:absolute;
+    margin: 85px -100px;
+}
+#tour5_info:active{
+    background-color: aqua;
+}
+/* slide-frame */
+#slider-box {
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    margin: 1620px 0px;
+    background-attachment: scroll;
+    overflow: hidden;
+}
+#tour{
+    color: red;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    margin: 1570px 589px;
+    width: 40%;
+    position: absolute;
+}
+#slider {
+    position: absolute;
+    width: 212%;
+    height: 30px;
+    display: inline-flex;
+    transition: 0.7s;
+    margin: 0px 0px;
+}
+
+#img1 {
+    width: 33%;
+    margin: 0px 0px;
+}
+#dest1{
+    margin: 320px 200px;
+    font-size: 20px;
+    font-family: sans-serif;
+    position: absolute;
+    color: white;
+}
+#img2 {
+    width: 33%;
+    margin: 0px  -15px;
+}
+#dest2{
+    margin: 320px 650px;
+    font-size: 20px;
+    font-family: sans-serif;
+    position: absolute;
+     color: white;
+}
+#img3 {
+    margin: 0px -15px;
+    width: 33%;
+}
+#dest3{
+    margin: 330px 1100px;
+    font-size: 20px;
+    font-family: sans-serif;
+    position: absolute;
+     color: white;
+}
+#img4 {
+    width: 33%;
+ }
+#dest4{
+    margin: 330px 1630px;
+    font-size: 20px;
+    font-family: sans-serif;
+    position: absolute;
+     color: white;
+}
+#img5 {
+    width: 33%;
+    margin: 0px  -15px;
+}
+#dest5{
+    margin: 330px 2080px;
+    font-size: 20px;
+    font-family: sans-serif;
+    position: absolute;
+     color: white;
+}
+#img6 {
+    width: 33%;
+     margin: 0px  -15px;
+}
+#dest6{
+    margin: 330px 2550px;
+    font-size: 20px;
+    font-family: sans-serif;
+    position: absolute;
+     color: white;
+}
+#slider img {
+    width: 88%;
+    height: 300px;
+    background-size: 100% 100%;
+}
+#slider img:hover {
+    width: 90%;
+    height: 308px;
+    background-size: 100% 100%;
+}
+#indicators{
+    position: absolute;
+    margin: 1895px 580px;
+    transform: translateX(115%);
+    width: 5%;
+}
+#indicators span{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgba(218, 53, 53, 0.5);
+    cursor: pointer;
+}
+.active{
+    background-color: gray!important;
+}
+/* footer section */
+#footer{
+    background-color: darkblue;
+    position: absolute;
+    width: 100%;
+    margin: 1990px 0px;
+    height: 400px;
+}
+#num{
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    margin: 60px 200px;
+}
+#phone{
+    color: aqua;
+    position: absolute;
+    margin: -30px 200px;
+    font-size: 17px;
+}
+#num1{
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    position: absolute;
+    margin: -30px 240px;
+}
+#phone1{
+    color: aqua;
+    position: absolute;
+    margin: -30px 420px;
+    font-size: 17px;
+}
+#num2{
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    position: absolute;
+    margin: -30px 460px;
+}
+#email{
+    color: aqua;
+    position: absolute;
+    margin: -30px 650px;
+}
+#org{
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    position: absolute;
+    margin: -30px 700px;
+}
+#location{
+    color: aqua;
+    position: absolute;
+    margin: -30px 910px;
+}
+#address{
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    position: absolute;
+    margin: -30px 950px;
+    width: 14%;
+    line-height: 25px;
+}
+#news{
+    color: white;
+    font-size: 17px;
+    font-family: sans-serif;
+    position: absolute;
+    text-transform: uppercase;
+    margin: 55px 200px;
+}
+#places{
+    font-size: 16px;
+    font-family: sans-serif;
+    position: absolute;
+    text-transform: capitalize;
+    width: 20%;
+    line-height: 25px;
+    margin: 85px 200px;
+}
+#a1{
+    color: white;
+    text-decoration: none;
+}
+#link{
+    color: white;
+    font-size: 17px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    margin: 55px 700px;
+    width: 30%;
+    position: absolute;
+}
+#list{
+    position: absolute;
+    margin: 65px 578px;
+    height: 50px;
+    width: 30%;
+    text-align: center;
+}
+#list li{
+    display: inline-block;
+    list-style-type: circle;
+    font-family: sans-serif;
+    padding: 5px;
+    margin: 15px 10px;
+    font-size: 16px;
+}
+.a2{
+    color: white;
+}
+#touch{
+    height: 60px;
+    width: 13%;
+    background-color: rgb(18, 240, 240);
+    position: absolute;
+    border: none;
+    margin: 145px 699px;
+}
+#a3{
+    font-size: 16px;
+    color: white;
+}
+#footer1{
+    background-color: rgb(12, 12, 95);
+    font-size: 16px;
+     position: absolute;
+     margin: 256px 0px;
+     height: 100px;
+     width: 100%;
+}
+#rights{
+    margin: 60px 195px;
+    text-transform: capitalize;
+    color: gray;
+    width: 20%;
+    position: absolute;
+}
+#facebook{
+    margin: 60px 692px;
+    position: absolute;
+    color: gray;
+}
+#facebook:active{
+    color: aqua;
+}
+#facebook:hover{
+    color: aqua;
+    font-size: 18px;
+}
+#twitter{
+    margin: 60px 725px;
+    position: absolute;
+    color: gray;
+}
+#twitter:active{
+    color: aqua;
+}
+#twitter:hover{
+    color: aqua;
+    font-size: 18px;
+}
+#google{
+    margin: 60px 760px;
+    position: absolute;
+    color: gray;
+}
+#google:active{
+    color: aqua;
+}
+#google:hover{
+    color: aqua;
+    font-size: 18px;
+}
+#instagram{
+    margin: 60px 799px;
+    position: absolute;
+    color: gray;
+}
+#instagram:hover{
+    color: aqua;
+    font-size: 18px;
+}
+#instagram:active{
+    color: aqua;
+}
+#policy{
+    color: gray;
+    position: absolute;
+    float: right;
+    margin: 60px 1020px;
+    font-size: 16px;
+    text-transform: capitalize;
+    width: 20%;
+}

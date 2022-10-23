@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../wonder-tour/about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body>
+    <h3 id="name">wonder <span> tour </span></h3>
+    <!-- navigation bar -->
+    <div class="nav-bar">
+        <ol>
+            <li><a href="../wonder-tour/index.html">home</a> </li>
+            <li><a href="../wonder-tour/tour.html">tours</a></li>
+            <li><a href="../wonder-tour/about.html">about us</a></li>
+            <li><a href="../wonder-tour/service.html">services</a></li>
+            <li><a href="../wonder-tour/contactus.html">contact us</a></li>
+        </ol>
+    </div>
+    <div class="img-container">
+        <h1>about us</h1>
+    </div>
+    <div class="img"></div>
+    <div class="info">
+        <p> Based in India, Wonder Tour is an international directory for all kinds of tours and travel
+            deals all around the globe. In our directory, you will find so many tours and meaningful travel programs
+            at the best possible rates, and unbaised reviews from real travelers to help you chose your next dream
+            adventure. Wonder Tour is working from past ten years, <span>1st January,2012</span> with more than <span>
+                500</span>
+            tours we have organized and day by day we are exploring ourself also and try to give our best. We are
+            providing wide variety of services like pickup services, amazing travel deals from verified providers, so
+            many tour programs worldwide, a convenient online booking platform, secure payment platform, efficient
+            customer service. We strives to be a bridge between aspiring travelers and tour providers providing
+            international travel opportunities. We seek to address the information gap and save your time and effort
+            when your are planning a trip abroad. We provide the best range of travel experiences through trusted
+            and fully licensed tour operators. All our travel programs and deals meet gold standard of safety and
+            support. </p>
+        <p>We believe that travelling abroad is the secret to people achieving a wider perspective of the world an
+            indeed, the world becomes a better place when people have a deeper awareness.</p>
+        <h3>our mission</h3>
+        <p>Our mission is to provide the ultimate travel planning experience while becoming a one-stop
+            shop for every travel service available in the industry.To provide the best travel deals and life-enriching
+            travel adventure from world-class tour providers.</p>
+    </div>
+    <h1 class="choose"><span> Why choose</span> us?</h1>
+    <div class="reason1">
+        <h4>Amazing travel deals from verified provider</h4>
+        <p>We offer the best travel deals offering high value for your money.All our travel programs and deals meet gold
+            standard of safety and
+            support.We provide the best range of travel programs through trusted
+            and fully licensed tour operators. We offer last minute deals and discounted rates for your tour programs.
+        </p>
+    </div>
+    <div class="reason2">
+        <h4>Various tour programs worldwide</h4>
+        <p>We are providing so many tour programs worldwide. All our tour providers are fully licensed and meet all the
+            safety standards and we continuously track their services and client's satisfaction.</p>
+    </div>
+    <div class="reason3">
+        <h4>A convenient online booking platform</h4>
+        <p>We provided a fully integrated booking platform. We are trying our best to make the booking process
+            hassel-free and convenient for our clients so that you can easily manage your booking and get in touch with
+            the tour providers. </p>
+    </div>
+    <div class="reason4">
+        <h4>Secure payment platform</h4>
+        <p>We use an internationally accredited PayPal payment system. You can be ensured that your payments with Wonder
+            Tour are safe and secure. </p>
+    </div>
+    <div class="reason5">
+        <h4>Efficient customer service</h4>
+        <p>We have a team of highly experienced customer support team who provide an excellent service and support for
+            your needs. You can contact us anytime via phone or email. </p>
+    </div>
+    <div class="reason6">
+        <h4>Best price guarantee</h4>
+        <p>We are providing various tour programs at affordable rates which is definitely according to your budget. If
+            you find tours that are cheaper than our, we will compensate the difference.</p>
+    </div>
+    <div class="reason7">
+        <div id="div1">
+            <div class="progress-bar">
+                <span class="number" data-value="98"></span>
+                <svg width="150" height="150" class="circle">
+                    <circle cx="75" cy="75" r="65" stroke="#dd9c46" stroke-width="20" fill="none" />
+                </svg>
+                <span id="orange"> excursions </span>
+                <script>
+                    let counter = 0;
+                    setInterval(() => {
+                        const el = document.querySelector(".number");
+                        const elValue = Number(el.getAttribute("data-value"));
+                        if (counter != elValue) {
+                            counter++;
+                            el.innerHTML = counter;
+                        }
+                    }, 80);
+                </script>
+            </div>
+            <div class="progress-bar1">
+                <span class="number1" data-value="91"></span>
+                <svg width="150" height="150" class="circle1">
+                    <circle cx="75" cy="75" r="65" stroke="#008000" stroke-width="20" fill="none" />
+                </svg>
+                <span id="green"> hotel booking</span>
+                <script>
+                    let Counter = 0;
+                    setInterval(() => {
+                        const el = document.querySelector(".number1");
+                        const elValue = Number(el.getAttribute("data-value"));
+                        if (Counter != elValue) {
+                            Counter++;
+                            el.innerHTML = Counter;
+                        }
+                    }, 80);
+                </script>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer section -->
+<div id="footer">
+    <h4 id="num">contact us</h4>
+    <i class="fa fa-phone" id="phone"></i>
+    <p id="num1">+1323-913-438</p>
+    <i class="fa fa-phone" id="phone1"></i>
+    <p id="num2">+1332-931-438</p>
+    <i class="fa fa-envelope" id="email"></i>
+    <p id="org">wonder123@gmail.com</p>
+    <i class="fa fa-location-arrow" id="location"></i>
+    <p id="address">Sant Nagar Burari, Delhi 110084</p>
+    <h4 id="news">popular news</h4>
+    <p id="places"><a href="../wonder-tour/tour.html" id="a1"> your personal guide to 5 best places to visit on
+            earth</a></p>
+    <h4 id="link">quick links</h4>
+    <ul id="list">
+        <li ><a href="../wonder-tour/about.html" class="a2">About us</a></li>
+        <li ><a href="../wonder-tour/tour.html" class="a2">Our Tours</a></li>
+        <li ><a href="../wonder-tour/contactus.html" class="a2">ContactUs</a></li>
+    </ul>
+    <button id="touch"><a href="../wonder-tour/about.html" id="a3">Get in touch</a></button>
+    <div id="footer1">
+         <p id="rights">all rights reserved.</p>
+        <a href="https://www.facebook.com"> <i class="fab fa-facebook-f" id="facebook"></i> </a>
+        <a href="https://www.twitter.com"> <i class="fab fa-twitter" id="twitter"></i></a>
+        <a href="https://www.google.com"> <i class="fab fa-google" id="google"></i></a>
+        <a href="https://www.instagram.com"> <i class="fab fa-instagram" id="instagram"></i></a>
+         <div id="policy">privacy policy</div>
+    </div>
+</body>
+
+</html>

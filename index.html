@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../wonder-tour/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body>
+    <h3 id="name">wonder <span> tour</span></h3>
+    <!-- navigation bar -->
+    <div class="nav-bar">
+        <ol>
+            <li><a href="../wonder-tour/index.html">home</a> </li>
+            <li><a href="../wonder-tour/tour.html">tours</a></li>
+            <li><a href="../wonder-tour/about.html">about us</a></li>
+            <li><a href="../wonder-tour/service.html">services</a></li>
+            <li><a href="../wonder-tour/contactus.html">contact us</a></li>
+        </ol>
+    </div>
+    <!-- Image slider -->
+    <div class="slider-frame">
+        <img src="../wonder-tour/images/Egypt.jpg" alt="" id="slideimage">
+    </div>
+    <script text="type/javascript">
+        function first() {
+            document.getElementById("slideimage").src = '../wonder-tour/images/cappadocia-hot-air-balloons-1.jpg';
+        }
+        function second() {
+            document.getElementById("slideimage").src = '../wonder-tour/images/i-flew-my-drone-over.jpg';
+        }
+        // function third() {
+        //     document.getElementById("slideimage").src = '../wonder-tour/images/spain.jpg';
+        // }
+        setInterval(first, 2000);
+        setInterval(second, 4000);
+        // setInterval(third, 6000);
+    </script>
+    <div id="container">
+        <h1 id="greeting">Welcome to Wonder Tour</h1>
+        <h4 id="team">Explore reviews & best tour deals of the world's best tour providers</h4>
+        <!-- form -->
+        <div class="form">
+            <form action="">
+                <input type="text" name="city" id="city" class="form-info" placeholder="Location,City Name" required>
+                <input type="date" name="checkin" id="checkin"  class="form-info" placeholder="Check in" required>
+                <input type="date" name="checkout" id="checkout" class="form-info" required>
+                <button type="button" class="form-info" id="btn">Search</button>
+            </form>
+        </div>
+    </div>
+    <div id="main">
+        <div class="subset">
+            <!-- destination -->
+            <hr class="line">
+            <h2 id="place">Explore the World </h2>
+            <hr class="line1">
+            <div id="slider-box">
+                <div id="slider">
+                    <div id="img1"> <img src="../wonder-tour/images/Italy.jpg" alt=""> </div>
+                    <span id="dest1">Itlay</span>
+                    <div id="img2"> <img src="../wonder-tour/images/Egypt.jpg" alt=""> </div>
+                    <span id="dest2">Egypt</span>
+                    <div id="img3"> <img src="../wonder-tour/images/Dubai.jpg" alt=""> </div>
+                    <span id="dest3">Dubai</span>
+                    <div id="img4"> <img src="../wonder-tour/images/spain.jpg" alt=""> </div>
+                    <span id="dest4">Spain</span>
+                    <div id="img5"> <img src="../wonder-tour/images/victoria_fall Africa.jpg" alt=""></div>
+                    <span id="dest5">Africa</span>
+                    <div id="img6"><img src="../wonder-tour/images/france.jpg" alt=""></div>
+                    <span id="dest6">France</span>
+                </div>
+            </div>
+            <div id="indicators">
+                <span id="btn1" class="active"></span>
+                <span id="btn2"></span>
+                <span id="btn3"></span>
+            </div>
+            <script>
+                var slide = document.getElementById("slider")
+                var btn1 = document.getElementById("btn1")
+                var btn2 = document.getElementById("btn2")
+                var btn3 = document.getElementById("btn3")
+                btn1.onclick = function () {
+                    slide.style.transform = "translateX(0px)";
+                    btn1.classList.add("active")
+                    btn2.classList.remove("active")
+                    btn3.classList.remove("active")
+                }
+                btn2.onclick = function () {
+                    slide.style.transform = "translateX(-34%)";
+                    btn2.classList.add("active")
+                    btn1.classList.remove("active")
+                    btn3.classList.remove("active")
+                }
+                btn3.onclick = function () {
+                    slide.style.transform = "translateX(-50%)";
+                    btn3.classList.add("active")
+                    btn1.classList.remove("active")
+                    btn2.classList.remove("active")
+                }
+            </script>
+            <!-- Deals -->
+            <hr class="line3">
+            <h2 id="deal">Deals</h2>
+            <hr class="line4">
+            <div class="winter">
+                <h2 class="content1">winter escapes <span>40% OFF</span></h2>
+                <button>buy</button>
+            </div>
+            <div class="member">
+                <h2 class="content2">member discount <span>30% OFF</span></h2>
+                <button>buy</button>
+            </div>
+            <div class="hours">
+                <h2 class="content3">24 hrs only <span>50% OFF</span></h2>
+                <button>buy</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- hot tours -->
+    <h2 id="tours">hot tours</h2>
+    <img src="../wonder-tour/images/297718.jpg" alt="" id="benidrom">
+    <div id="tour1">
+        <h3>Benidrom,Spain</h3>
+        <p id="p7">Benidrom is a buzzing resort with a big reputation for beach holidays. Situated in sunny Costa
+            Blanca, the town is one of the original Spanish beach resorts... <button id="tour1_info">buy this
+                tour</button></p>
+    </div>
+    <img src="../wonder-tour/images/iStock-1192448083.webp" alt="" id="img-africa">
+    <div id="tour2">
+        <h3 id="mauritius">Mauritius island,africa</h3>
+        <p id="p8">The beautiful and inviting island nation of Mauritius is an ideal 'flop and drop' at the conclusion
+            of your safari. Indulge in the delightful scents of the fragrant... <button id="tour2_info">buy this tour
+            </button></p>
+    </div>
+
+    <!-- client experience -->
+    <div class="review">
+        <h2 id="client">client <span> experiences </span></h2>
+        <div class="review1">
+            <p>We spent two nights in France and I must say that everything was excellent. The location of the
+                hotel is quite close to my destination. As for the room, even though being small, but it is excellent
+                and surprisingly comfortable. I would definitely recommend this hotel (Pullman Paris Tour Eiffel) to
+                other having this tour. We are delighted that we choose you for our four days France excursion.<span>
+                    ---Ravi Kumar</span></p>
+        </div>
+        <div class="review2">
+            <p>Great location, really pleasant and clean rooms, but the thing that makes this such a good place to stay
+                are the staff. All of the people are incredibly helpful and generous with their time and advice. We
+                travelled with lot of luggage and despite the stairs up to the elevator this was one of the nicest
+                places
+                we stayed a week in Africa and their pickup service is also good. <span>--Mack</span> </p>
+        </div>
+        <div class="review3">
+            <p>It was a good experienced with Wonder Tour services from day one in Madrid, Spain. It seems like we were
+                in heaven. It is worth staying here just for the experience, the hotel makes visiting Spain much more
+                magical. We faced no hurdles during our trip from first to last day. They have highly professional and
+                experienced team and I will perfer them
+                for my furture tours also. <span>---Gurpreet Kaur Singh</span> </p>
+        </div>
+        <div class="review4">
+            <p>We spent three nights in Egypt and believe me they made it such an amazing trip that I never thought and
+                everything was excellent. All of the people are incredibly helpful and generous with their time and
+                advice. I must say it is worthy. They make my trip memorable. I am happy that I choose them to organize
+                my trip.<span>---John</span>
+            </p>
+        </div>
+    </div>
+
+    <!-- footer section -->
+    <div id="footer">
+        <h4 id="num">contact us</h4>
+        <i class="fa fa-phone" id="phone"></i>
+        <p id="num1">+1323-913-438</p>
+        <i class="fa fa-phone" id="phone1"></i>
+        <p id="num2">+1332-931-438</p>
+        <i class="fa fa-envelope" id="email"></i>
+        <p id="org">wonder123@gmail.com</p>
+        <i class="fa fa-location-arrow" id="location"></i>
+        <p id="address">Sant Nagar Burari, Delhi 110084</p>
+        <h4 id="news">popular news</h4>
+        <p id="places"><a href="../wonder-tour/tour.html" id="a1"> your personal guide to 5 best places to visit on
+                earth</a></p>
+        <h4 id="link">quick links</h4>
+        <ul id="list">
+            <li><a href="../wonder-tour/about.html" class="a2">About us</a></li>
+            <li><a href="../wonder-tour/tour.html" class="a2">Our Tours</a></li>
+            <li><a href="../wonder-tour/contactus.html" class="a2">ContactUs</a></li>
+        </ul>
+        <button id="touch"><a href="../wonder-tour/index.html" id="a3">Get in touch</a></button>
+        <div id="footer1">
+            <p id="rights">all rights reserved.</p>
+            <a href="https://www.facebook.com"> <i class="fab fa-facebook-f" id="facebook"></i> </a>
+            <a href="https://www.twitter.com"> <i class="fab fa-twitter" id="twitter"></i></a>
+            <a href="https://www.google.com"> <i class="fab fa-google" id="google"></i></a>
+            <a href="https://www.instagram.com"> <i class="fab fa-instagram" id="instagram"></i></a>
+            <div id="policy">privacy policy</div>
+        </div>
+</body>
+
+</html>
